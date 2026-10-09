@@ -4,6 +4,7 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Services from "@/components/Services";
+import AboutSeo from "@/components/AboutSeo";
 import Pricing from "@/components/Pricing";
 import Features from "@/components/Features";
 import Gallery from "@/components/Gallery";
@@ -20,6 +21,7 @@ export default function Home() {
       <main>
         <Hero />
         <Services />
+        <AboutSeo />
         <Pricing />
         <Features />
         <Gallery />
